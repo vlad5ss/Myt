@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_item_confirm_new_car"
+        android:icon="@drawable/ic_menu_add"
+        android:title="@string/new_car"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/menu_item_up"
+        android:icon="@drawable/up"
+        android:title="@string/sort_cost_in_asc" />
+    <item
+        android:id="@+id/menu_item_down"
+        android:icon="@drawable/down"
+        android:title="@string/sorting_cost_in_desc" />
+</menu>

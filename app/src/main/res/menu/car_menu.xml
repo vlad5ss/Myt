@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_item_confirm_new_car"
+        android:icon="@drawable/ic_confirm_dark"
+        android:title="@string/confirm"
+        app:showAsAction="ifRoom|withText" />
+
+</menu>

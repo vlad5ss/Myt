@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#68707b"
+    android:orientation="vertical"
+    tools:context=".activities.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/filter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <ImageView
+            android:id="@+id/image_country"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:src="@drawable/search1" />
+
+        <EditText
+            android:id="@+id/user_filter_country"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:hint="@string/country"
+            android:singleLine="true" />
+
+        <ImageView
+            android:id="@+id/image_mark"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:src="@drawable/search1" />
+
+        <EditText
+            android:id="@+id/user_filer_mark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:hint="@string/mark"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toBottomOf="@id/filter">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view_cars"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Myt</string>
+    <string name="power">Power: </string>
+    <string name="number_of_doors">Number of doors: </string>
+    <string name="body_type">Body type: </string>
+    <string name="number_of_seats">Number of seats:</string>
+    <string name="end_release">End release:</string>
+    <string name="start_release">Start release:</string>
+    <string name="new_car">New car</string>
+    <string name="save_button">Save</string>
+    <string name="describe_new_car">Describe new car</string>
+    <string name="input_title">Input title of car</string>
+    <string name="input_mark">Input mark of car</string>
+    <string name="input_cost">Input cost of car</string>
+    <string name="search">Search</string>
+    <string name="country">Country</string>
+    <string name="mark">Mark</string>
+    <string name="incorrect_input_cost">Incorrect input cost</string>
+    <string name="operation_successful">Operation successful</string>
+    <string name="confirm">Confirm</string>
+    <string name="input_country_of_this_mark">Input country of this mark</string>
+    <string name="sorting_cost_in_desc">Sorting cost in DESC</string>
+    <string name="sort_cost_in_asc">Sort cost in ASC</string>
+</resources>
